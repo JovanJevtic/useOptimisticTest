@@ -16,7 +16,7 @@ type Props = {
   todos: Todo[];
 };
 
-type PendingTodo<Todo> = Partial<Todo> & { sending?: boolean };
+type PendingTodo<T> = Partial<T> & { sending?: boolean };
 
 const Form = ({ todos }: Props) => {
   const formRef = useRef<ElementRef<"form">>(null);
