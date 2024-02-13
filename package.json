@@ -11,8 +11,9 @@
   "dependencies": {
     "@prisma/client": "^5.8.1",
     "next": "14.1.0",
-    "react": "^18.3.0-canary-6db7f4209-20231021",
-    "react-dom": "^18.3.0-canary-6db7f4209-20231021",
+    "react": "18.3.0-canary-14fd9630e-20240213",
+    "react-dom": "18.3.0-canary-14fd9630e-20240213",
+    "use-optimistic-v14.1": "link:",
     "uuid": "^9.0.1"
   },
   "devDependencies": {
